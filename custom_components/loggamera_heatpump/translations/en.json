@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Loggamera Heat Pump",
+        "description": "Enter the Loggamera API details for your heat pump.",
+        "data": {
+          "name": "Name",
+          "api_key": "API Key",
+          "device_id": "Device ID"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Check your API Key and Device ID."
+    },
+    "abort": {
+      "already_configured": "This Loggamera heat pump is already configured."
+    }
+  },
+  "title": "Loggamera Heat Pump"
+}

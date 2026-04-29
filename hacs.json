@@ -1,0 +1,7 @@
+{
+  "name": "Loggamera Heat Pump",
+  "content_in_root": false,
+  "country": "DE",
+  "homeassistant": "2023.7.0",
+  "render_readme": true
+}

@@ -1,0 +1,13 @@
+{
+  "domain": "loggamera_heatpump",
+  "name": "Loggamera Heat Pump",
+  "codeowners": ["@ithanil"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/ithanil/loggamera-heatpump-hass#readme",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/ithanil/loggamera-heatpump-hass/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
