@@ -21,7 +21,7 @@ from .const import DOMAIN
 from .coordinator import LoggameraHeatPumpCoordinator
 
 
-@dataclass(frozen=True)
+@dataclass(frozen=True, kw_only=True)
 class LoggameraHeatPumpSensorDescription(SensorEntityDescription):
     value_keys: tuple[str, ...]
     value_fn: Callable[[Any], Any] = lambda value: value

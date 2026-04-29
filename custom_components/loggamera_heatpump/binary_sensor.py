@@ -18,7 +18,7 @@ from .const import DOMAIN
 from .coordinator import LoggameraHeatPumpCoordinator
 
 
-@dataclass(frozen=True)
+@dataclass(frozen=True, kw_only=True)
 class LoggameraHeatPumpBinarySensorDescription(BinarySensorEntityDescription):
     value_keys: tuple[str, ...]
 
